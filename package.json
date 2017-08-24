@@ -1,0 +1,27 @@
+{
+  "name": "multi-db-update",
+  "version": "1.0.0",
+  "description": "Update script for update multiple databases",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "bin": {
+    "multi-db-update": "./lib/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "update",
+    "db",
+    "legalthings"
+  ],
+  "author": "Sven Stam",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^4.0.1",
+    "monk": "^6.0.3",
+    "optimist": "^0.6.1"
+  }
+}
